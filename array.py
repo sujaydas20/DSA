@@ -1,3 +1,6 @@
+# problem no 1
+# find largest number
+
 array=(1,2,5,6,8)
 large=(0)
 for i in range(1, len(array)):
@@ -19,3 +22,32 @@ if num:
 else:
     print("not sort")    
 print(sorted,(arry))
+
+
+# problem 3
+# find the 2nd large number
+ary=(1,5,8,6,3,)
+sot=(sorted(ary))
+print(sorted(ary)),print("to show the array is sorted")
+print(sot[len(sot)-2])
+
+
+# problem no 4
+# linear search
+ary=[1,2,5,9,8,7,6]
+target=9
+for i in range(len(ary)):
+    if ary[i]==target:
+     print("target match",i,ary)
+     
+     
+     break
+
+
+
+# problem no 5
+# Left Rotate Array by One
+ary=[1,2,3,4,5,6]
+frist=ary.pop(0)
+print(ary.append(frist))
+print(ary)
