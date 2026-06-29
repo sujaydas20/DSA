@@ -6,13 +6,16 @@ for i in range(1, len(array)):
 print(large)
 
 
-
-# arr = [10, 25, 7, 89, 45]
-
-# largest = arr[0]
-
-# for i in range(1, len(arr)):
-#     if arr[i] > largest:
-#         largest = arr[i]
-
-# print("Largest number is:", largest)
+# problem no 2
+# check array is sort or not
+arry=(1,2,3,5,6,9,8,)
+num=("true")
+for i in range(len(arry)-1):
+    if arry [i]> arry[i+1]:
+        num=False
+        break
+if num:
+    print("sort")
+else:
+    print("not sort")    
+print(sorted,(arry))
