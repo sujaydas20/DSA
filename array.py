@@ -51,3 +51,26 @@ ary=[1,2,3,4,5,6]
 frist=ary.pop(0)
 print(ary.append(frist))
 print(ary)
+
+
+
+
+
+# easy array
+# problem no 1
+# Problem Statement: Given an array that contains only 1 and 0 return the count of maximum consecutive ones in the array.
+
+ary = [1,0,1,1,1,1,0,1]
+
+con = 0
+max_con = 0
+
+for i in range(len(ary)):
+    if ary[i] == 1:
+        con = con + 1
+        if con > max_con:
+            max_con = con
+    else:
+        con = 0
+
+print(max_con)
