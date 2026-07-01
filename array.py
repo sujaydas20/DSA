@@ -74,3 +74,18 @@ for i in range(len(ary)):
         con = 0
 
 print(max_con)
+
+
+
+# problem no 2
+# Problem Statement: You are given an array of integers, your task is to move all the zeros in the array to the end of the array and move non-negative integers to the front by maintaining their order.
+arr = [1, 0, 2, 0, 4, 3, 0, 5]
+
+j = 0
+
+for i in range(len(arr)):
+    if arr[i] != 0:
+        arr[i], arr[j] = arr[j], arr[i]
+        j += 1
+
+print(arr)
