@@ -89,3 +89,14 @@ for i in range(len(arr)):
         j += 1
 
 print(arr)
+
+
+# problem no 3
+# '''Problem Statement: Given an array of integers, rotating array of elements by k elements either left or right.'''arr = [1, 2, 3, 4, 5]
+k = 2
+
+k = k % len(arr)
+
+arr = arr[k:] + arr[:k]
+
+print(arr)
