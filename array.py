@@ -100,3 +100,18 @@ k = k % len(arr)
 arr = arr[k:] + arr[:k]
 
 print(arr)
+
+
+# problem no 4
+# find the mising value in given arrey/
+arr = [1, 2, 3, 5]
+
+n = len(arr) + 1
+
+total_sum = n * (n + 1) // 2
+
+array_sum = sum(arr)
+
+missing = total_sum - array_sum
+
+print("Missing Number:", missing)
