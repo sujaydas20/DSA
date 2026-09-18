@@ -56,3 +56,16 @@ s = "banana"
 s = s.replace("a", "o")
 
 print(s)
+
+
+
+a = [[1, 2, 3], [4, 5, 6]]
+
+s = 0
+
+for row in a:
+    for x in row:
+        if x % 2 == 0:
+            s += x
+
+print(s)
