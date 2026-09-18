@@ -69,3 +69,13 @@ for row in a:
             s += x
 
 print(s)
+
+
+
+
+def f(x):
+    x = x + 5
+
+a = f(10)
+
+print(a)
