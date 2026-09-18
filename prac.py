@@ -16,3 +16,14 @@ for i in range(5):
         s += i
 
 print(s)
+
+
+
+
+
+a = [4, 1, 3, 2]
+
+b = sorted(a)
+
+print(a)
+print(b)
