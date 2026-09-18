@@ -3,3 +3,16 @@ print (x.index("ning"))
 
 arry=("i",1,2,3)
 print(arry[1:-1])
+
+
+
+
+s = 0
+
+for i in range(5):
+    if i == 2:
+        pass
+    else:
+        s += i
+
+print(s)
