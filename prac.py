@@ -47,3 +47,12 @@ c = a
 print(a == b)
 print(a is b)
 print(a is c)
+
+
+
+
+s = "banana"
+
+s = s.replace("a", "o")
+
+print(s)
