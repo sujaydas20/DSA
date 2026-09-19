@@ -79,3 +79,12 @@ def f(x):
 a = f(10)
 
 print(a)
+
+
+
+s = 0
+
+for i in range(10, 2, -2):
+    s += i
+
+print(s)
