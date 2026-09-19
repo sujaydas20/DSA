@@ -145,3 +145,12 @@ x = 7
 y = 10 if x > 8 else 20 if x > 5 else 30
 
 print(y)
+
+
+
+a = [[1, 2, 3],
+     [4, 5, 6]]
+
+b = [[row[i] for row in a] for i in range(3)]
+
+print(b)
