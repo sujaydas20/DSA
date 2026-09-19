@@ -88,3 +88,13 @@ for i in range(10, 2, -2):
     s += i
 
 print(s)
+
+
+
+a = 3
+b = 4
+c = 5
+
+a, b, c = c, a, b
+
+print(a + b * c)
