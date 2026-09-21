@@ -195,3 +195,14 @@ x = a.index(20)
 y = a.index(40)
 
 print(x + y)
+
+
+
+
+a = [10, 20, 30, 40]
+
+x = a.pop(1)
+y = a.pop()
+
+print(x + y)
+print(a)
