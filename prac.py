@@ -206,3 +206,11 @@ y = a.pop()
 
 print(x + y)
 print(a)
+
+
+
+x = 7
+
+y = 10 if x > 8 else 20 if x > 5 else 30
+
+print(y)
