@@ -174,3 +174,13 @@ c = 5
 a, b, c = c, a, b
 
 print(a + b * c)
+
+
+
+
+a = [2, 3, 2, 4, 2, 5, 3]
+
+x = a.count(2)
+y = a.count(3)
+
+print(x * y)
