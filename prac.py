@@ -184,3 +184,14 @@ x = a.count(2)
 y = a.count(3)
 
 print(x * y)
+
+
+
+
+
+a = [10, 20, 30, 20, 40]
+
+x = a.index(20)
+y = a.index(40)
+
+print(x + y)
