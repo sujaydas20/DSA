@@ -154,3 +154,12 @@ a = [[1, 2, 3],
 b = [[row[i] for row in a] for i in range(3)]
 
 print(b)
+
+
+
+s = 0
+
+for i in range(10, 2, -2):
+    s += i
+
+print(s)
