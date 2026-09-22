@@ -285,3 +285,11 @@ def f(a, b, c):
     return a + 2*b + 3*c
 
 print(f(c=2, a=4, b=1))
+
+
+
+
+x = -7
+y = 3
+
+print(abs(x) + x // y)
