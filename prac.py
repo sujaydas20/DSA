@@ -310,3 +310,11 @@ x = all(i < 10 for i in a)
 y = all(i % 2 == 0 for i in a)
 
 print(x and y)
+
+
+a = [1, 3, 5, 8]
+
+if any(x % 2 == 0 for x in a):
+    print(sum(a))
+else:
+    print(0)
