@@ -293,3 +293,11 @@ x = -7
 y = 3
 
 print(abs(x) + x // y)
+
+
+
+
+a = 4.6
+b = 2.4
+
+print(round(a) + round(b))
