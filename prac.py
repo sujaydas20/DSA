@@ -327,3 +327,12 @@ a = ["apple", "kiwi", "banana"]
 x = min(a, key=len)
 
 print(x)
+
+
+
+
+a = ["GATE", "DA", "2027"]
+
+s = "-".join(a)
+
+print(s)
