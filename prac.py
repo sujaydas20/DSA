@@ -233,3 +233,10 @@ i = 0
 while i < len(s):
     print(s[i], end="")
     i += 2
+
+
+    s = "MISSISSIPPI"
+
+x = set(s)
+
+print(len(x))
