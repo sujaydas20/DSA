@@ -240,3 +240,13 @@ while i < len(s):
 x = set(s)
 
 print(len(x))
+
+
+
+
+d = {"a": 10, "b": 20}
+
+x = d.get("c", 5)
+y = d.get("a", 5)
+
+print(x + y)
