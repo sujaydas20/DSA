@@ -250,3 +250,12 @@ x = d.get("c", 5)
 y = d.get("a", 5)
 
 print(x + y)
+
+
+
+
+d = {"a": 1, "b": 2}
+
+d.update({"b": 5, "c": 3})
+
+print(d["a"] + d["b"] + d["c"])
