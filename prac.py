@@ -259,3 +259,13 @@ d = {"a": 1, "b": 2}
 d.update({"b": 5, "c": 3})
 
 print(d["a"] + d["b"] + d["c"])
+
+
+
+
+x = 0
+
+if x and (10 // x):
+    print("A")
+else:
+    print("B")
