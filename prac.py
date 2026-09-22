@@ -269,3 +269,11 @@ if x and (10 // x):
     print("A")
 else:
     print("B")
+
+
+
+a = [1, 2, 3, 4]
+
+b = list(reversed(a))
+
+print(b[0] - b[-1])
