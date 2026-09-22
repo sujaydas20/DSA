@@ -318,3 +318,12 @@ if any(x % 2 == 0 for x in a):
     print(sum(a))
 else:
     print(0)
+
+
+
+
+a = ["apple", "kiwi", "banana"]
+
+x = min(a, key=len)
+
+print(x)
