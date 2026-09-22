@@ -301,3 +301,12 @@ a = 4.6
 b = 2.4
 
 print(round(a) + round(b))
+
+
+
+a = [2, 4, 6, 8]
+
+x = all(i < 10 for i in a)
+y = all(i % 2 == 0 for i in a)
+
+print(x and y)
