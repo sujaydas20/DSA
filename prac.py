@@ -224,3 +224,12 @@ a = [[1, 2, 3],
 b = [[row[i] for row in a] for i in range(3)]
 
 print(b)
+
+
+
+s = "GATE"
+i = 0
+
+while i < len(s):
+    print(s[i], end="")
+    i += 2
