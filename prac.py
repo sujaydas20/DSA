@@ -277,3 +277,11 @@ a = [1, 2, 3, 4]
 b = list(reversed(a))
 
 print(b[0] - b[-1])
+
+
+
+
+def f(a, b, c):
+    return a + 2*b + 3*c
+
+print(f(c=2, a=4, b=1))
