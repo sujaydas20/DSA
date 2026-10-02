@@ -34,3 +34,13 @@ a = A()
 a.change(3)
 
 print(A.x, a.x)
+
+
+
+import bisect
+
+a = [1, 3, 5, 7]
+bisect.insort(a, 4)
+bisect.insort(a, 6)
+
+print(a[2] + a[-1])
