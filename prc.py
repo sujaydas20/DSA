@@ -93,3 +93,17 @@ class A:
 
 a = A(6)
 print(a.value)
+
+
+
+
+
+
+from itertools import groupby
+
+a = "aaabbc"
+g = groupby(a)
+
+result = [(k, len(list(v))) for k, v in g]
+
+print(result)
