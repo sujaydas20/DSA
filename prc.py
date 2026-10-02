@@ -77,3 +77,19 @@ else:
     print("C")
 finally:
     print("D")
+
+
+
+
+
+
+class A:
+    def __init__(self, x):
+        self._x = x
+
+    @property
+    def value(self):
+        return self._x * 2
+
+a = A(6)
+print(a.value)
