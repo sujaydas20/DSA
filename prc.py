@@ -44,3 +44,11 @@ bisect.insort(a, 4)
 bisect.insort(a, 6)
 
 print(a[2] + a[-1])
+
+
+
+a = {"x": 1, "y": 2}
+b = {"y": 5, "z": 7}
+
+c = {**a, **b}
+print(c["x"] + c["y"] + c["z"])
