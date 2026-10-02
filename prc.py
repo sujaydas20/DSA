@@ -63,3 +63,17 @@ b = [3, 4, 5]
 
 c = list(chain(b, a))
 print(c[1] + c[-2])
+
+
+
+
+try:
+    x = int("5.5")
+except ValueError:
+    print("A")
+except Exception:
+    print("B")
+else:
+    print("C")
+finally:
+    print("D")
