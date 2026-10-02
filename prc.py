@@ -52,3 +52,14 @@ b = {"y": 5, "z": 7}
 
 c = {**a, **b}
 print(c["x"] + c["y"] + c["z"])
+
+
+
+
+from itertools import chain
+
+a = [1, 2]
+b = [3, 4, 5]
+
+c = list(chain(b, a))
+print(c[1] + c[-2])
