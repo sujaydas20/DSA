@@ -16,3 +16,13 @@ def counter():
 counter.x = 0
 
 print(counter(), counter(), counter())
+
+
+
+
+from operator import itemgetter
+
+data = [(3, 8), (1, 9), (2, 4), (4, 6)]
+result = sorted(data, key=itemgetter(1))
+
+print(result[0][0] + result[-1][0])
